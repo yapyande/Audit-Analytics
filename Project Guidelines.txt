@@ -1,0 +1,70 @@
+1. Compare Price vs. Rent — The Price-to-Rent Ratio by district
+Goal: Understand which districts are more favorable for buying vs. renting.
+
+How:
+
+Compute price_to_rent_ratio = average_sale_price / (annual_rent * 12) by district or property type.
+
+Visualize it on a map.
+
+Identify “overvalued” (high ratio) or “undervalued” (low ratio) areas.
+Visualize it on a map.
+
+Identify “overvalued” (high ratio) or “undervalued” (low ratio) areas.
+
+Insights:
+
+High ratios → better to rent; Low ratios → better to buy.
+This mirrors how real estate investors assess local markets.
+
+2. Investment Yield Analysis
+
+Goal: Estimate rental yield — the percentage return you’d get from renting out a property.
+
+How:
+
+rental yield
+=
+annual rent
+purchase price
+×
+100
+rental yield=
+purchase price
+annual rent
+	​
+
+×100
+
+Compare yields across districts or property sizes.
+
+Correlate yield with property features (size, location, age).
+
+Extension: Adjust for taxes, maintenance, or average vacancy rate if you have those variables.
+
+6. Clustering Neighborhoods
+
+Goal: Group similar districts by their housing and rental characteristics.
+
+How:
+
+Combine features like average price, rent, size, and amenities.
+
+Use K-means or hierarchical clustering.
+
+Label clusters (e.g., “Affordable”, “Luxury”, “Mid-tier”, “High-rent, low-price”).
+
+This can help reveal hidden structure in your city’s housing market.
+
+
+Using the existing dataset, create a model that will predict the price of the resale flat using existing variables (use one-hot encoding)
+
+Using the model, find the more significant variables that determines the resale flat price
+
+Using a new model, are we able to determine if there is a relationship between flat price and rental price
+
+Could we use sentiment analysis?
+
+What are the conclusions?
+
+How are we able to improve the model? E.g. Rental flats data a little lacking compared to resale flats. What other possible variables may be useful to determine the prices (distance to amenities, public transport)? 
