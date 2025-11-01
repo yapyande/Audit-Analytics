@@ -1,9 +1,7 @@
 1. Compare Price vs. Rent — The Price-to-Rent Ratio by district
 Goal: Understand which districts are more favorable for buying vs. renting.
 
-How:
-
-Compute price_to_rent_ratio = average_sale_price / (annual_rent * 12) by district or property type.
+How:Compute price_to_rent_ratio = average_sale_price / (annual_rent * 12) by district or property type.
 
 Visualize it on a map.
 
@@ -25,16 +23,7 @@ How:
 
 rental yield
 =
-annual rent
-purchase price
-×
-100
-rental yield=
-purchase price
-annual rent
-	​
-
-×100
+annual rent/purchase price × 100
 
 Compare yields across districts or property sizes.
 
@@ -55,6 +44,8 @@ Use K-means or hierarchical clustering.
 Label clusters (e.g., “Affordable”, “Luxury”, “Mid-tier”, “High-rent, low-price”).
 
 This can help reveal hidden structure in your city’s housing market.
+
+
 
 
 Using the existing dataset, create a model that will predict the price of the resale flat using existing variables (use one-hot encoding)
